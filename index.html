@@ -1,16 +1,63 @@
-<!doctype html>
-<html lang="en" class="dark">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="https://ipfs.io/ipfs/QmTfNJrxiNbHaiQkJn38N1PLk4jB1EGEbn3G2uy83J2zWP" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stacks inscription</title>
     <meta name="description" content="Inscription on Stacks">
-    <script type="module" crossorigin src="/assets/index-98f36be6.js"></script>
-    <link rel="stylesheet" href="/assets/index-05772db8.css">
+    <title>Stacks inscription</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: #000;
+        color: #fff;
+        overflow-x: hidden;
+      }
+
+      .cyber-glow {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.3), 
+                   0 0 40px rgba(0, 255, 255, 0.2),
+                   0 0 60px rgba(0, 255, 255, 0.1);
+      }
+
+      .neon-text {
+        text-shadow: 0 0 2px currentColor,
+                     0 0 2px currentColor,
+                     0 0 2px currentColor,
+                     0 0 2px currentColor;
+      }
+
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+
+      @keyframes glow {
+        0%, 100% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); }
+        50% { box-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DQttHk2-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-QZ8ehzXc.css">
   </head>
   <body>
     <div id="app"></div>
-    
   </body>
 </html>
